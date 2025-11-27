@@ -26,4 +26,5 @@ wss.on('connection', (ws) => {
   });
 });
 
-console.log('Signaling server running on ws://localhost:3000');
+let ws = new WebSocket('wss://your-app.onrender.com');
+
